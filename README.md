@@ -12,3 +12,6 @@ To install (on OS X):
   $ cd $HOME/Documents/eagle/lbr && git clone https://github.com/cnuahs/custom-eagle-lbr.git ./shaunc.git
 ```
 5. Restart Eagle. The library should appear at (or near) the top of the list as '00shaunc'.
+
+## License
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/)<br />This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
