@@ -28479,14 +28479,14 @@ Based on Jonathan Greig's version of the logo in DXF format... c.f. https://gith
 <wire x1="-7.27075" y1="-14.351" x2="7.27075" y2="-14.351" width="0.127" layer="21"/>
 <wire x1="7.27075" y1="-14.351" x2="7.27075" y2="-16.51" width="0.127" layer="21"/>
 <wire x1="-7.27075" y1="-14.351" x2="-7.27075" y2="-16.51" width="0.127" layer="21"/>
-<pad name="VCC" x="-3.81" y="9.398" drill="0.6"/>
-<pad name="GND" x="-1.27" y="9.398" drill="0.6"/>
-<pad name="SCL" x="1.27" y="9.398" drill="0.6"/>
-<pad name="SDA" x="3.81" y="9.398" drill="0.6"/>
-<text x="-3.175" y="12.7" size="1.27" layer="21" rot="R90">VCC</text>
-<text x="-0.635" y="12.7" size="1.27" layer="21" rot="R90">GND</text>
-<text x="1.905" y="12.7" size="1.27" layer="21" rot="R90">SCL</text>
-<text x="4.445" y="12.7" size="1.27" layer="21" rot="R90">SDA</text>
+<pad name="VCC" x="-3.81" y="9.398" drill="0.65" diameter="1.4224"/>
+<pad name="GND" x="-1.27" y="9.398" drill="0.65" diameter="1.4224"/>
+<pad name="SCL" x="1.27" y="9.398" drill="0.65" diameter="1.4224"/>
+<pad name="SDA" x="3.81" y="9.398" drill="0.65" diameter="1.4224"/>
+<text x="-4.445" y="6.985" size="1.27" layer="21" rot="R270">VCC</text>
+<text x="-1.905" y="6.985" size="1.27" layer="21" rot="R270">GND</text>
+<text x="0.635" y="6.985" size="1.27" layer="21" rot="R270">SCL</text>
+<text x="3.175" y="6.985" size="1.27" layer="21" rot="R270">SDA</text>
 <wire x1="-13.335" y1="7.62" x2="13.335" y2="7.62" width="0.127" layer="51"/>
 <wire x1="13.335" y1="7.62" x2="13.335" y2="-7.2898" width="0.127" layer="51"/>
 <wire x1="13.335" y1="-7.2898" x2="-13.335" y2="-7.2898" width="0.127" layer="51"/>
@@ -28499,8 +28499,12 @@ Based on Jonathan Greig's version of the logo in DXF format... c.f. https://gith
 <wire x1="13.97" y1="-16.51" x2="7.27075" y2="-16.51" width="0.127" layer="51"/>
 <wire x1="7.27075" y1="-14.351" x2="7.27075" y2="-16.51" width="0.127" layer="51"/>
 <wire x1="-7.27075" y1="-14.351" x2="-7.27075" y2="-16.51" width="0.127" layer="51"/>
-<text x="-11.43" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="-11.43" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-11.43" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-11.43" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-11.811" y="9.271" radius="2.8" width="0.0762" layer="39"/>
+<circle x="11.811" y="9.271" radius="2.8" width="0.0762" layer="39"/>
+<circle x="11.811" y="-14.351" radius="2.8" width="0.0762" layer="39"/>
+<circle x="-11.811" y="-14.351" radius="2.8" width="0.0762" layer="39"/>
 </package>
 <package name="OLED-094IN-I2C">
 <wire x1="-13.97" y1="11.43" x2="13.97" y2="11.43" width="0.127" layer="21"/>
@@ -28511,10 +28515,10 @@ Based on Jonathan Greig's version of the logo in DXF format... c.f. https://gith
 <wire x1="-7.27075" y1="-14.351" x2="7.27075" y2="-14.351" width="0.127" layer="21"/>
 <wire x1="7.27075" y1="-14.351" x2="7.27075" y2="-16.51" width="0.127" layer="21"/>
 <wire x1="-7.27075" y1="-14.351" x2="-7.27075" y2="-16.51" width="0.127" layer="21"/>
-<pad name="VCC" x="-3.81" y="9.398" drill="0.6"/>
-<pad name="GND" x="-1.27" y="9.398" drill="0.6"/>
-<pad name="SCL" x="1.27" y="9.398" drill="0.6"/>
-<pad name="SDA" x="3.81" y="9.398" drill="0.6"/>
+<pad name="VCC" x="-3.81" y="9.398" drill="0.65" diameter="1.4224"/>
+<pad name="GND" x="-1.27" y="9.398" drill="0.6" diameter="1.4224"/>
+<pad name="SCL" x="1.27" y="9.398" drill="0.6" diameter="1.4224"/>
+<pad name="SDA" x="3.81" y="9.398" drill="0.6" diameter="1.4224"/>
 <text x="-4.445" y="6.985" size="1.27" layer="21" rot="R270">VCC</text>
 <text x="-1.905" y="6.985" size="1.27" layer="21" rot="R270">GND</text>
 <text x="0.635" y="6.985" size="1.27" layer="21" rot="R270">SCL</text>
@@ -28594,6 +28598,70 @@ Based on Jonathan Greig's version of the logo in DXF format... c.f. https://gith
 <pad name="P$3" x="-3.81" y="-1.27" drill="0.85"/>
 <pad name="P$5" x="3.81" y="-3.81" drill="0.85"/>
 <pad name="P$8" x="3.81" y="3.81" drill="0.85"/>
+</package>
+<package name="SOD-123FL">
+<smd name="C" x="-1.635" y="0" dx="1.22" dy="0.91" layer="1" rot="R180"/>
+<smd name="A" x="1.635" y="0" dx="1.22" dy="0.91" layer="1"/>
+<wire x1="-1.42" y1="-0.9" x2="-1.42" y2="0.9" width="0.12" layer="51"/>
+<wire x1="-1.42" y1="0.9" x2="1.42" y2="0.9" width="0.12" layer="51"/>
+<wire x1="1.42" y1="0.9" x2="1.42" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="1.42" y1="-0.9" x2="-1.42" y2="-0.9" width="0.12" layer="51"/>
+<wire x1="-1.42" y1="0.61" x2="-1.42" y2="0.9" width="0.2032" layer="21"/>
+<wire x1="1.42" y1="-0.61" x2="1.42" y2="-0.9" width="0.2032" layer="21"/>
+<wire x1="1.42" y1="-0.9" x2="-1.42" y2="-0.9" width="0.2032" layer="21"/>
+<wire x1="-1.42" y1="-0.9" x2="-1.42" y2="-0.61" width="0.2032" layer="21"/>
+<wire x1="-1.42" y1="0.9" x2="1.42" y2="0.9" width="0.2032" layer="21"/>
+<wire x1="1.42" y1="0.9" x2="1.42" y2="0.61" width="0.2032" layer="21"/>
+<wire x1="-1.62" y1="-1.1" x2="1.62" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="1.62" y1="-1.1" x2="1.62" y2="-0.63" width="0.05" layer="39"/>
+<wire x1="1.62" y1="-0.63" x2="2.39" y2="-0.63" width="0.05" layer="39"/>
+<wire x1="2.39" y1="-0.63" x2="2.39" y2="0.63" width="0.05" layer="39"/>
+<wire x1="2.39" y1="0.63" x2="1.62" y2="0.63" width="0.05" layer="39"/>
+<wire x1="1.62" y1="0.63" x2="1.62" y2="1.1" width="0.05" layer="39"/>
+<wire x1="1.62" y1="1.1" x2="-1.62" y2="1.1" width="0.05" layer="39"/>
+<wire x1="-1.62" y1="1.1" x2="-1.62" y2="0.63" width="0.05" layer="39"/>
+<wire x1="-1.62" y1="0.63" x2="-2.39" y2="0.63" width="0.05" layer="39"/>
+<wire x1="-2.39" y1="0.63" x2="-2.39" y2="-0.63" width="0.05" layer="39"/>
+<wire x1="-2.39" y1="-0.63" x2="-1.62" y2="-0.63" width="0.05" layer="39"/>
+<wire x1="-1.62" y1="-0.63" x2="-1.62" y2="-1.1" width="0.05" layer="39"/>
+<wire x1="0.377" y1="0.377" x2="0.377" y2="-0.377" width="0.05" layer="21"/>
+<wire x1="0.377" y1="-0.377" x2="-0.25" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.25" y1="0" x2="0.377" y2="0.377" width="0.05" layer="21"/>
+<wire x1="-0.25" y1="0.377" x2="-0.25" y2="-0.377" width="0.05" layer="21"/>
+<text x="-2.54" y="1.524" size="1.32" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.2" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="SOD-123F">
+<smd name="C" x="-1.4" y="0" dx="1.1" dy="1.1" layer="1" rot="R180"/>
+<smd name="A" x="1.4" y="0" dx="1.1" dy="1.1" layer="1"/>
+<wire x1="-1.35" y1="-0.85" x2="-1.35" y2="0.85" width="0.12" layer="51"/>
+<wire x1="-1.35" y1="0.85" x2="1.35" y2="0.85" width="0.12" layer="51"/>
+<wire x1="1.35" y1="0.85" x2="1.35" y2="-0.85" width="0.12" layer="51"/>
+<wire x1="1.35" y1="-0.85" x2="-1.35" y2="-0.85" width="0.12" layer="51"/>
+<wire x1="-1.35" y1="0.61" x2="-1.35" y2="0.85" width="0.2032" layer="21"/>
+<wire x1="1.35" y1="-0.61" x2="1.35" y2="-0.85" width="0.2032" layer="21"/>
+<wire x1="1.35" y1="-0.85" x2="-1.35" y2="-0.85" width="0.2032" layer="21"/>
+<wire x1="-1.35" y1="-0.85" x2="-1.35" y2="-0.61" width="0.2032" layer="21"/>
+<wire x1="-1.35" y1="0.85" x2="1.35" y2="0.85" width="0.2032" layer="21"/>
+<wire x1="1.35" y1="0.85" x2="1.35" y2="0.61" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="-1" x2="1.55" y2="-1" width="0.05" layer="39"/>
+<wire x1="1.55" y1="-1" x2="1.55" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="1.55" y1="-0.7" x2="2.15" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="2.15" y1="-0.7" x2="2.15" y2="0.7" width="0.05" layer="39"/>
+<wire x1="2.15" y1="0.7" x2="1.55" y2="0.7" width="0.05" layer="39"/>
+<wire x1="1.55" y1="0.7" x2="1.55" y2="1" width="0.05" layer="39"/>
+<wire x1="1.55" y1="1" x2="-1.55" y2="1" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="1" x2="-1.55" y2="0.7" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="0.7" x2="-2.15" y2="0.7" width="0.05" layer="39"/>
+<wire x1="-2.15" y1="0.7" x2="-2.15" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="-2.15" y1="-0.7" x2="-1.55" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="-0.7" x2="-1.55" y2="-1" width="0.05" layer="39"/>
+<wire x1="0.377" y1="0.377" x2="0.377" y2="-0.377" width="0.05" layer="21"/>
+<wire x1="0.377" y1="-0.377" x2="-0.25" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.25" y1="0" x2="0.377" y2="0.377" width="0.05" layer="21"/>
+<wire x1="-0.25" y1="0.377" x2="-0.25" y2="-0.377" width="0.05" layer="21"/>
+<text x="-2.54" y="1.524" size="1.32" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.2" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -43505,6 +43573,46 @@ Use with Farnell No: 9103996 (PVD1354N; DIP), 2839524 (PVD1354NS; SOIC)</descrip
 <connect gate="G$1" pin="C" pad="P$3"/>
 <connect gate="G$1" pin="D" pad="P$5"/>
 <connect gate="G$1" pin="S" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SM581XPL">
+<description>Symbol and footprint for SM5817PL, SM5818PL and SM5819PL surface mount Schottky diodes.
+&lt;br&gt;&lt;br&gt;
+* SM5817FL (20V; SOD-123FL; DigiKey No: SM5817PL-TPMSCT-ND)&lt;br/&gt;
+* SM5818FL (30V; SOD-123FL; DigiKey No: 353-SM5818PL-TPCT-ND) [Obsolete?]&lt;br/&gt;
+* SM5819FL (40V; SOD-123FL; DigiKey No: SM5819PL-TPMSCT-ND)&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY-DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD-123FL">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PMEG2010AEH">
+<description>Symbol and footprint for PMEG2010AEH surface mount Schottky diodes.
+&lt;br&gt;&lt;br&gt;
+* PMEG2010AEH (20V; SOD-123F; DigiKey No: 1727-3856-1-ND)&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY-DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD-123F">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
